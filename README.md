@@ -17,10 +17,12 @@ optional arguments:
   -max MAXPORT, --maxport MAXPORT    Specify max port
   -min MINPORT, --minport MINPORT    Specify min port
   -s SCANTYPE, --scantype SCANTYPE   Scan type, tcp/udp
-  To save results to a .txt file, simply append > filename.txt to the end of the argument
+  
+To save results to a .txt file, simply append > filename.txt to the end of the argument
   
 Must install argparse and scapy on machine running python script
   
 pip install argparse
+
 pip install scapy
 
